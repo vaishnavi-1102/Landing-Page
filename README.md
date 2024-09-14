@@ -26,3 +26,6 @@ This repository contains the HTML and CSS code for the **VAiSHU's Software Devel
 
    ```bash
    git clone https://github.com/vaishnavi-1102/Landing-Page.git
+
+   ![Screenshot 2024-09-14 152119](https://github.com/user-attachments/assets/59d7d542-76f3-42ad-b8df-a0207e140af9)
+
