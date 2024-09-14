@@ -1,0 +1,164 @@
+/* Reset default margin and padding for body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Set default font for the page */
+}
+
+/* Header Top Section */
+.header-top {
+    background-color: #f6b6e6; /* Dark background color */
+    color: rgb(6, 6, 6); /* White text color */
+    padding: 10px 20px; /* Padding for spacing */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Center-align items vertically */
+}
+
+/* Navigation Bar Styles */
+nav ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    background-color: #e496e0; /* Darker background for nav */
+    text-align: center; /* Center-align text */
+}
+
+nav li {
+    display: inline; /* Display list items inline */
+}
+
+nav a {
+    color: rgb(11, 11, 11); /* White link text color */
+    padding: 15px 20px; /* Padding around links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center; /* Center-align text */
+    padding: 50px; /* Padding around content */
+    color: white; /* White text color */
+    background: url('Backgroundimage.jpeg') no-repeat center center / cover; /* Background image */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align items horizontally */
+    justify-content: center; /* Center-align items vertically */
+    min-height: 400px; /* Minimum height for the section */
+}
+
+/* Hero Heading Styles */
+.hero h1 {
+    font-size: 2.5em; /* Large font size for heading */
+    margin: 0; /* Remove margin */
+    background: linear-gradient(to right, rgb(234, 175, 211), rgb(188, 101, 235)); /* Gradient background */
+    padding: 10px; /* Padding around text */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Hero Paragraph Styles */
+.hero p {
+    font-size: 1.2em; /* Larger font size for paragraphs */
+    color: black; /* Black text color */
+    margin-top: 20px; /* Space above paragraphs */
+    padding: 5px; /* Padding around text */
+    display: inline-block; /* Inline block for consistent layout */
+    max-width: 80%; /* Limit width to 80% */
+}
+
+/* Hero Buttons */
+.hero-buttons {
+    margin-top: 20px; /* Space above buttons */
+}
+
+.hero-buttons button {
+    background-color: #e27cbf; /* Blue background for buttons */
+    border: none; /* Remove border */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding around text */
+    font-size: 1em; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    margin: 5px; /* Margin between buttons */
+}
+
+/* Hover effect for buttons */
+.hero-buttons button:hover {
+    background-color: #e27cbf; /* Darker blue on hover */
+}
+
+/* Quick Info Section Styles */
+.quick-info {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-around; /* Space items evenly */
+    padding: 20px; /* Padding around content */
+    background-color: #e992dd; /* Light background color */
+}
+
+.info-block {
+    text-align: center; /* Center-align text */
+    max-width: 30%; /* Limit width */
+}
+
+/* About Us Section Styles */
+.about-us {
+    padding: 40px; /* Padding around content */
+    background-color: #ffffff; /* White background color */
+}
+
+.about-us-container {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center-align items vertically */
+}
+
+.about-text {
+    max-width:1000px /* Limit text width */
+}
+
+.about-image img {
+    width: 100%; /* Full width of container */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Services Section Styles */
+.services {
+    padding: 40px; /* Padding around content */
+    background-color: #F9F9F9; /* Light grey background color */
+    text-align: center; /* Center-align text */
+}
+
+.service-container {
+    display: flex; /* Flexbox for layout */
+    flex-wrap: wrap; /* Wrap items to next line */
+    justify-content: space-around; /* Space items evenly */
+}
+
+.service {
+    max-width: 40%; /* Limit width */
+    margin: 10px; /* Margin around items */
+}
+
+.service img {
+    width: 100%;height: 50%; /* Full width of container */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #ee9bde; /* Dark background color */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around content */
+    text-align: center; /* Center-align text */
+}
+
+footer a {
+    color: white; /* White link text color */
+    margin: 0 10px; /* Margin around links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer img {
+    width: 60px; /* Icon size */
+    margin: 0 20px; /* Margin around icons */
+}
